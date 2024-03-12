@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-12 12:23:18.138321",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "car_brands",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "car_brands",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Car_Brands",
+   "options": "Maruti\nHonda\nHyundai\nTata\nMahindara\nMG",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "CarBrands",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-03-12 14:26:21.446056",
+ "modified_by": "Administrator",
+ "module": "Cars",
+ "name": "Car Brand",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

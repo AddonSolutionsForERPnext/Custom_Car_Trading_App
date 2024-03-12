@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-12 12:13:23.984447",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "car_name",
+  "brand",
+  "car_price",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "car_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Car Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "brand",
+   "fieldtype": "Select",
+   "label": "Brand",
+   "options": "Maruti\nHonda\nHyundai\nTata\nMahindara\nMG"
+  },
+  {
+   "fieldname": "car_price",
+   "fieldtype": "Currency",
+   "label": "Price"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "New Cars",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-03-12 14:43:16.245415",
+ "modified_by": "Administrator",
+ "module": "Cars",
+ "name": "New Cars",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

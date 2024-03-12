@@ -20,9 +20,9 @@
   },
   {
    "fieldname": "brand_name",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "label": "Car Brand",
-   "options": "Maruti\nHonda\nHyundai\nTata\nMahindara\nMG"
+   "options": "Car Brand"
   },
   {
    "fieldname": "car_price",
@@ -43,7 +43,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-03-12 14:42:43.850775",
+ "modified": "2024-03-12 16:04:01.115123",
  "modified_by": "Administrator",
  "module": "Cars",
  "name": "Old Cars",
